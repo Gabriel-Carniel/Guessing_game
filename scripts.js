@@ -1,0 +1,1 @@
+alert("Tente adivinhar o número!")
