@@ -9,19 +9,88 @@
 }
 
 body {
-  background: linear-gradient(287.56deg, #C2e9fb 0%, #a1c4fd 100%);
+  background: linear-gradient(45deg, hsl(0, 0%, 0%) 0%, #540364 100%);
   font-size: 1.6rem;
   display: grid;
   place-items: center;
   height: 100vh;
 }
 
+body, button, input {
+  font-family: "DM Sans", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+h1, p {
+  color: #540364; 
+}
+
+p {
+  opacity: 0.8;
+}
+
+button {
+  background-color: #540364;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 .4rem .4rem 0;
+  cursor: pointer;
+
+  transition: background .3s;
+}
+
+button:hover {
+  background-color: #9007ac;
+}
 main {
   background: #ffffff;
-  box-shadow: 0 .2rem .4rem;
+  box-shadow: .3rem .3rem .4rem black;
   border-radius: .6rem;
   padding: 4.8rem 6.4rem 6.4rem;
 
   width: min(42.8rem, 90%);
   margin-top: -12rem;
+  
+  text-align: center;
+}
+
+form {
+  margin-top: 4.8rem;
+  display: flex; 
+  justify-content: center;
+}
+
+input, button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: rgb(71, 71, 71);
+  width: 6rem;
+  color: white;
+  border-radius: .4rem 0 0 .4rem;
+}
+
+
+
+/* Scree2 */
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: .4rem;
 }
